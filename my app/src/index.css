@@ -28,7 +28,13 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
-  align-content: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 0;
+  background-color: #242424;
+  font-family: system-ui, sans-serif;
 }
 
 h1 {
